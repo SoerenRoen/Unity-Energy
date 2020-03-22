@@ -1,0 +1,98 @@
+/* "css/style.css" - til dine custom styles*/
+
+/* Før du skriver noget CSS selv, så tjek https://getbootstrap.com/docs/4.3/getting-started/introduction/ (menuen til venstre)
+
+Der er masser af indbyggede classes for alt muligt i bootstrap, som du hellere skal tilføje i HTML-filen.
+F.eks. for typografi, spacing (margin og padding), flexboxes og positionering med meget mere */
+
+
+/* -------------------------------------------- FONTS*/
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: white;
+}
+
+h3 {
+    color: white;
+}
+
+h5 {
+    color: white;
+}
+
+p {
+    color: white;
+}
+
+
+
+
+button {
+    color: white;
+}
+
+
+.container-fluid {
+    padding: 0
+}
+
+#background {
+    /*    background-color: #1f1f1f;*/
+    background-color: #171717;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+/* -------------------------------------------- HOME*/
+
+#home {
+    /*    background: red;*/
+}
+
+/* -------------------------------------------- INTRO*/
+
+#intro {
+    border: solid 3px blue;
+}
+
+/* -------------------------------------------- UNITY*/
+
+#unity {
+    border: solid 3px green;
+}
+
+/* -------------------------------------------- PRODUCTS*/
+
+#product {
+    border: solid 3px orange
+}
+
+/* -------------------------------------------- VIDEO*/
+
+#video {
+    border: solid 3px purple
+}
+
+/* -------------------------------------------- REQUEST*/
+
+#request {
+    border: solid 3px crimson
+}
+
+/* -------------------------------------------- LOGO*/
+
+#logo {
+    border: solid 3px limegreen
+}
+
+/* -------------------------------------------- FOOTER*/
+
+#footer {
+    border: solid 3px deeppink
+}
