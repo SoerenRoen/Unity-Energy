@@ -51,6 +51,21 @@ section {
     margin-bottom: 30px;
 }
 
+
+/* -------------------------------------------- IMAGE*/
+
+/*
+.img_overwrite {
+    width: 500px;
+}
+*/
+
+
+/* -------------------------------------------- MENU*/
+
+
+
+
 /* -------------------------------------------- HOME*/
 
 #home {
@@ -77,6 +92,19 @@ section {
 
 #product {
     border: solid 3px orange
+}
+
+.single_product {
+    background-color: rgba(103, 103, 103, 0.36);
+    padding: 1.5rem;
+    border-radius: 1rem;
+
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.single_product:hover {
+    transform: scale(1.02)
 }
 
 /* -------------------------------------------- VIDEO*/
