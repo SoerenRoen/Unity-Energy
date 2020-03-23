@@ -10,6 +10,7 @@ F.eks. for typografi, spacing (margin og padding), flexboxes og positionering me
 
 h1 {
     color: white;
+    font-family: 'Roboto', sans-serif;
 }
 
 h2 {
@@ -26,6 +27,8 @@ h5 {
 
 p {
     color: white;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 
