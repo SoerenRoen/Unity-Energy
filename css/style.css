@@ -41,6 +41,10 @@ button {
     color: white;
 }
 
+body {
+    background-color: #0b0b0b;
+}
+
 
 .container-fluid {
     padding: 0
@@ -75,12 +79,13 @@ section {
 
 #home {
     /*    background: red;*/
+    height: 100vh;
 }
 
 /* -------------------------------------------- INTRO*/
 
 #intro {
-    border: solid 3px blue;
+    /*    border: solid 3px blue;*/
 }
 
 .intro_img {
@@ -94,7 +99,7 @@ section {
 /* -------------------------------------------- UNITY*/
 
 #unity {
-    border: solid 3px green;
+    /*    border: solid 3px green;*/
 }
 
 .hand {
@@ -107,7 +112,7 @@ section {
 /* -------------------------------------------- PRODUCTS*/
 
 #product {
-    border: solid 3px orange
+    /*    border: solid 3px orange*/
 }
 
 .single_product {
@@ -127,19 +132,19 @@ section {
 /* -------------------------------------------- VIDEO*/
 
 #video {
-    border: solid 3px purple
+    /*    border: solid 3px purple*/
 }
 
 /* -------------------------------------------- REQUEST*/
 
 #request {
-    border: solid 3px crimson
+    /*    border: solid 3px crimson*/
 }
 
 /* -------------------------------------------- LOGO*/
 
 #logo {
-    border: solid 3px limegreen
+    /*    border: solid 3px limegreen*/
 }
 
 .logo_img {
@@ -149,5 +154,5 @@ section {
 /* -------------------------------------------- FOOTER*/
 
 #footer {
-    border: solid 3px deeppink
+    /*    border: solid 3px deeppink*/
 }
