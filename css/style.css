@@ -82,6 +82,15 @@ section {
     height: 100vh;
 }
 
+.unity_img {
+    transform: scale(1);
+    transition: 1s;
+}
+
+.unity_img:hover {
+    transform: scale(1.08)
+}
+
 /* -------------------------------------------- INTRO*/
 
 #intro {
@@ -102,11 +111,22 @@ section {
     /*    border: solid 3px green;*/
 }
 
+.unity_text:hover {
+    /*    color: hotpink;*/
+}
+
 .hand {
     padding-right: 0;
     right: 0px;
 
-    max-width: 700px
+    max-width: 700px;
+
+    transform: scale(1);
+    transition: 0.5s;
+}
+
+.hand:hover {
+    transform: scale(1.02);
 }
 
 /* -------------------------------------------- PRODUCTS*/
