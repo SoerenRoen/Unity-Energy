@@ -11,23 +11,29 @@ F.eks. for typografi, spacing (margin og padding), flexboxes og positionering me
 h1 {
     color: white;
     font-family: 'Roboto', sans-serif;
+    font-size: 2.5rem;
+    text-transform: uppercase;
 }
 
 h2 {
     color: white;
+    font-size: 20px
 }
 
 h3 {
     color: white;
+    font-size: 25px
 }
 
 h5 {
     color: white;
+    font-size: 1.8em
 }
 
 p {
     color: white;
     font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
 }
 
 
@@ -54,11 +60,10 @@ section {
 
 /* -------------------------------------------- IMAGE*/
 
-/*
 .img_overwrite {
-    width: 500px;
+    width: 100px;
+    height: auto;
 }
-*/
 
 
 /* -------------------------------------------- MENU*/
@@ -78,6 +83,14 @@ section {
     border: solid 3px blue;
 }
 
+.intro_img {
+    max-width: 600px;
+}
+
+.intro_text {
+    max-width: 600px;
+}
+
 /* -------------------------------------------- UNITY*/
 
 #unity {
@@ -86,6 +99,9 @@ section {
 
 .hand {
     padding-right: 0;
+    right: 0px;
+
+    max-width: 700px
 }
 
 /* -------------------------------------------- PRODUCTS*/
@@ -96,9 +112,10 @@ section {
 
 .single_product {
     background-color: rgba(103, 103, 103, 0.36);
-    padding: 1.5rem;
+    padding: 1rem;
     border-radius: 1rem;
 
+    width: 400px;
     transform: scale(1);
     transition: 0.5s;
 }
@@ -123,6 +140,10 @@ section {
 
 #logo {
     border: solid 3px limegreen
+}
+
+.logo_img {
+    max-width: 250px;
 }
 
 /* -------------------------------------------- FOOTER*/
