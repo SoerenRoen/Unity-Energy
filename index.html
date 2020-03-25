@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/width-indicators.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -18,16 +19,16 @@
     <main class="container-fluid" id="background">
 
         <section id="home" class="row justify-content-center mb-0">
-            <div class="col-12 col-sm-8 col-md-6 align-self-center">
+            <div class="col-12 col-sm-8 col-md-6 align-self-center animation_home_img">
                 <img src="IMG/Unity-Energy_Wordlogo.png" alt="" class="unity_img w-100 img-fluid">
             </div>
         </section>
 
         <section id="intro" class="row justify-content-center">
-            <div class="col-12 col-sm-8 col-md-6 col-lg-5 intro_img">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 intro_img align-self-center">
                 <img src="IMG/Unity%20Assembled.png" alt="" class="img-fluid">
             </div>
-            <div class="col-10 col-sm-10 col-md-5 col-lg-5 mt-md-4 mt-lg-5 intro_text">
+            <div class="col-10 col-sm-10 col-md-5 col-lg-5 mt-md-4 mt-lg-5 intro_text text-center text-md-left">
                 <h1 class="text-center text-md-left mb-5">Ikke bare en dåse</h1>
                 <h2>Unity Energy handler om mere, end en energidrik. Det handler om fælleskab, om samarbejde og om respekt. Budskabet breder sig udover det lokale samfunds grænser - vi træder udover vores egen næsetip og lander direkte i Amazonas, Kyoto og Moskva.
                     Vi fejrer verdens forskelligheder, og bringer os tættere på hinanden. </h2>
@@ -80,24 +81,28 @@
 
         </section>
 
-        <section id="video" class="row">
+        <section id="video" class="row mb-5  justify-content-center">
             <div class="col-12">
-                <video width="100%" height="auto" controls>
+                <h6 class="text-center mb-5">"Eventyret starter her"</h6>
+            </div>
+            <div class="col-12 col-sm-10 col-md-8">
+                <video width="100%" height="auto" class="video" controls>
                     <source src="Unity.mp4" type="video/mp4">
                 </video>
             </div>
-            <div class="col-12">
-                <h5 class="text-center">Eventyret starter her</h5>
-            </div>
         </section>
 
-        <section id="request" class="row text-center">
-            <div class="col-12">
+        <section id="request" class="row text-center mb-5">
+            <div class="col-12 mb-4">
                 <h1>Hvad skal vi fejre næste gang?</h1>
             </div>
             <div class="col-12">
-                FORMULAR
-                <!--                formular-->
+                <form action="/action_page.php">
+                    <label for="fname"></label>
+                    <input type="text" id="fname" name="firstname" placeholder="SKRIV EVENT HER...">
+
+                    <input type="submit" value="Submit">
+                </form>
             </div>
         </section>
 
@@ -106,7 +111,7 @@
                 <img src="IMG/Unity-Logos/logo.png" alt="" class="img-fluid logo_img ">
             </div>
             <div class="col-10 col-md-5">
-                <h1 class="text-center text-md-left mb-5">H1</h1>
+                <h1 class="text-center text-md-left mb-5">ET EVENT I ET LOGO</h1>
                 <h5 class="text-center text-md-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis corporis explicabo dolore quam iusto nihil omnis dicta nobis eligendi sit ea blanditiis mollitia, autem consectetur quas enim ab! Iusto, odio.</h5>
             </div>
         </section>
