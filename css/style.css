@@ -57,7 +57,6 @@ body {
 }
 
 #background {
-    /*    background-color: #1f1f1f;*/
     background-color: #0b0b0b;
 
     overflow: hidden;
@@ -163,7 +162,12 @@ section {
 
 .video {
     /*    border-radius: 1000px;*/
+    background-size: cover;
+    background-position: center;
+
 }
+
+.video_container {}
 
 /* -------------------------------------------- REQUEST*/
 
