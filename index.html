@@ -10,15 +10,33 @@
     <link rel="stylesheet" href="bs/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/width-indicators.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
+    <!--
+<header>
+    <nav class="navbar sticky-top navbar-dark justify-content-center">
+        <a class="navbar-brand" href="#home">HOME</a>
+        <a class="navbar-brand" href="#intro">INTRO</a>
+        <a class="navbar-brand" href="#unity">UNITY</a>
+        <a class="navbar-brand" href="#product">PRODUCT</a>
+        <a class="navbar-brand" href="#video">VIDEO</a>
+        <a class="navbar-brand" href="#request">REQUESTS</a>
+        <a class="navbar-brand" href="#logo">LOGO</a>
+    </nav>
+</header>
+-->
+
+
     <main class="container-fluid" id="background">
 
-        <section id="home" class="row justify-content-center mb-0">
+        <section id="home" class="row justify-content-center mb-1">
             <div class="col-12 col-sm-8 col-md-6 align-self-center animation_home_img">
                 <img src="IMG/Unity-Energy_Wordlogo.png" alt="" class="unity_img w-100 img-fluid">
             </div>
@@ -27,19 +45,19 @@
         <!--        <div id="arrow"></div>-->
 
         <section id="intro" class="row justify-content-center">
-            <div class="col-12 col-sm-8 col-md-6 col-lg-5 intro_img align-self-center">
-                <img src="IMG/Unity%20Assembled.png" alt="" class="img-fluid">
+            <div class="col-12 col-sm-8 col-md-6 col-lg-5 mb-1 intro_img align-self-center">
+                <img src="IMG/Unity%20Assembled.png" alt="" class="assembled img-fluid">
             </div>
-            <div class="col-10 col-sm-10 col-md-5 col-lg-5 mt-md-4 mt-lg-5 intro_text text-center text-md-left">
-                <h1 class="text-center text-md-left mb-5">Ikke bare en dåse</h1>
-                <h2>Unity Energy handler om mere, end en energidrik. Det handler om fælleskab, om samarbejde og om respekt. Budskabet breder sig udover det lokale samfunds grænser - vi træder udover vores egen næsetip og lander direkte i Amazonas, Kyoto og Moskva.
+            <div class="col-10 col-sm-10 col-md-5 col-lg-5 intro_text text-center text-md-left align-self-center">
+                <h1 class="text-center text-md-left mb-5 intro_first">Ikke bare en dåse</h1>
+                <h2 class="intro_text intro_second">Unity Energy handler om mere, end en energidrik. Det handler om fælleskab, om samarbejde og om respekt. Budskabet breder sig udover det lokale samfunds grænser - vi træder udover vores egen næsetip og lander direkte i Amazonas, Kyoto og Moskva.
                     Vi fejrer verdens forskelligheder, og bringer os tættere på hinanden. </h2>
             </div>
         </section>
 
 
 
-        <section id="unity" class="row m-0 mb-5 p-0 justify-content-end">
+        <section id="unity" class="row m-0 mb-5 py-5 justify-content-end">
             <div class="col-12 col-md-5 col-lg-4 offset-xl-1 text-center text-md-right pt-5 pb-5 align-self-center">
                 <h5 class="unity_text">Fejr med os, og vis din støtte til verdens befolkning. Med en Unity i hånden viser du opbakning til mangfoldighed og dine medmennesker rundt omkring på kloden.</h5>
             </div>
@@ -49,8 +67,8 @@
 
         </section>
 
-        <section id="product" class="row justify-content-center">
-            <h1 class="col-12 text-center mb-5">PRODUCTS</h1>
+        <section id="product" class="row justify-content-center py-5">
+            <h1 class="col-12 text-center mb-5 porducts">PRODUCTS</h1>
             <div class="row single_product mx-3 mb-5">
                 <div class="col-4">
                     <img src="IMG/Plain-Can/New_Year.png" alt="" class="img_overwrite">
@@ -83,9 +101,9 @@
 
         </section>
 
-        <section id="video" class="row mb-5 mt-5 justify-content-center">
+        <section id="video" class="row my-5 justify-content-center">
             <div class="col-12">
-                <h6 class="text-center mb-5">"Eventyret starter her"</h6>
+                <h6 class="text-center mb-5 py-5">"Eventyret starter her"</h6>
             </div>
             <div class="col-12 col-sm-10 col-md-8 video_container">
                 <video width="100%" height="auto" class="video" controls>
@@ -94,81 +112,100 @@
             </div>
         </section>
 
-        <section id="request" class="row text-center mb-5 mt-5">
+        <section id="request" class="row text-center my-5 p-5 request">
             <div class="col-12 mb-4">
                 <h1>Hvad skal vi fejre næste gang?</h1>
             </div>
             <div class="col-12">
                 <form action="/action_page.php">
                     <label for="fname"></label>
-                    <input type="text" id="fname" name="firstname" placeholder="SKRIV EVENT HER...">
+                    <input class="text-center" type="text" id="fname" name="firstname" placeholder="SKRIV EVENT HER...">
 
                     <input type="submit" value="Submit">
                 </form>
             </div>
         </section>
 
-        <section id="logo" class="row justify-content-around mt-5 mb-5">
-            <div class="col-7 col-sm-5 col-md-2 offset-lg-2 mb-5 mb-md-0">
+        <section id="logo" class="row justify-content-center my-5 p-5">
+            <div class="col-7 col-sm-5 col-md-4 col-lg-3 col-xl-2  offset-lg-2 mb-5 mb-md-0 align-self-center">
                 <img src="IMG/Unity-Logos/logo.png" alt="" class="img-fluid logo_img ">
             </div>
-            <div class="col-10 col-md-5">
-                <h1 class="text-center text-md-left mb-5">ET EVENT I ET LOGO</h1>
-                <h5 class="text-center text-md-left">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis corporis explicabo dolore quam iusto nihil omnis dicta nobis eligendi sit ea blanditiis mollitia, autem consectetur quas enim ab! Iusto, odio.</h5>
+            <div class="col-10 col-md-4 offset-lg-1 col-xl-3">
+                <h1 class="text-center text-md-left mb-5 logo_first">ET EVENT I ET LOGO</h1>
+                <h2 class="text-center text-md-left logo_second">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quis corporis explicabo dolore quam iusto nihil omnis dicta nobis eligendi sit ea blanditiis mollitia, autem consectetur quas enim ab! Iusto, odio.</h2>
             </div>
         </section>
 
 
-        <footer id="footer" class="row">
-            <div id="instagram-feed-demo" class="instagram_feed"></div>
-
-            <!--
-            <div class="col-12">
-                <button type="button" class="btn btn-sucess btn.lg">KNAP</button>
-            </div>
-            <div class="col-12">
-                <button type="button" class="btn btn-sucess btn.lg">KNAP</button>
-            </div>
-            <div class="col-12">
-                <button type="button" class="btn btn-sucess btn.lg">KNAP</button>
-            </div>
-            <div class="col-12">
-                <p>P</p>
-            </div>
--->
+        <footer id="footer" class="row justify-content-center my-5">
+            <h1 class="text-center col-10 my-5">FØLG UNITY ENERGY PÅ INSTAGRAM</h1>
+            <div id="unity_instaFeed" class="instagram_feed col-11 col-lg-8"></div>
         </footer>
 
-    </main><!-- END container -->
+    </main>
 
-    <!-- Ikke mere indhold efter denne linie -->
+    <script src="https://code.jquery.com/jquery-3.4.1.js" integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
 
-    <!-- jQuery og popper.js inkludes herunder - nødvendigt for Bootstrap  - slet dem ikke-->
+    <script src="bs/js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
 
-    <!--   INSTGRAM FEED-->
+    <script src="jquery.instagramFeed-master/jquery.instagramFeed.js"></script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-    <script src="insta/jquery.instagramFeed.js"></script>
     <script>
-        $(window).on('load', function() {
-            $.instagram_feed({
-                'username': 'instagram',
-                'container': "#instagram-feed-demo",
-                'display_profile': true,
-                'display_biography': true,
-                'display_gallery': true,
-                'callback': null,
+        $(function() {
+            $.instagramFeed({
+                'username': 'unity.energy',
+                'container': "#unity_instaFeed",
+                'iamge_size': [150, 240, 320, 480, 640],
+                'display_profile': false,
+                'display_biography': false,
+                'display_igtv': false,
+                'items': 5,
+                'items_per_row': 5,
+                'margin': 0.5,
                 'styling': true,
-                'items': 8,
-                'items_per_row': 4,
-                'margin': 1
+                'display_gallery': true,
             });
+        })
+    </script>
+
+    <script src="https://unpkg.com/scrollreveal@4.0.6/dist/scrollreveal.js" integrity="sha384-2Yti010u8RkeMVr2wgr3emf4NECfNT+JNps66JJmqHWCf+PZ9eQsenj4yNQN9oub" crossorigin="anonymous"></script>
+
+    <script>
+        const left_slide = document.querySelectorAll('.unity_text');
+
+        observer = new IntersectionObserver((lefties) => {
+            lefties.forEach(left => {
+                if (left.intersectionRatio > 0) {
+                    left.target.classList.add('animated', 'slideInLeft');
+                } else {
+                    left.target.classList.remove('slideInLeft', 'animated');
+                }
+            });
+        });
+
+        left_slide.forEach(left_sl => {
+            observer.observe(left_sl);
+        });
+
+
+        const right_slide = document.querySelectorAll('.intro_first, .intro_second, .hand, .logo_first, .logo_second');
+
+        observer = new IntersectionObserver((righties) => {
+            righties.forEach(right => {
+                if (right.intersectionRatio > 0) {
+                    right.target.classList.add('animated', 'slideInRight');
+                } else {
+                    right.target.classList.remove('slideInRight', 'animated');
+                }
+            });
+        });
+
+        right_slide.forEach(right_sl => {
+            observer.observe(right_sl);
         });
     </script>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
-    <script src="bs/js/bootstrap.min.js"></script>
-    <script src="js/scripts.js"></script>
 </body>
 
 </html>

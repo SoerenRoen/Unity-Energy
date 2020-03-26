@@ -35,7 +35,7 @@ h5 {
 h6 {
     color: white;
     font-family: 'Gochi Hand', cursive;
-    font-size: 40px;
+    font-size: 45px;
 }
 
 p {
@@ -80,8 +80,9 @@ section {
 
 /* -------------------------------------------- MENU*/
 
-
-
+.bg-primary {
+    background-color: #0b0b0b;
+}
 
 /* -------------------------------------------- HOME*/
 
@@ -107,6 +108,7 @@ section {
 
 #intro {
     /*    border: solid 3px blue;*/
+    min-height: 60vh;
 }
 
 .intro_img {
@@ -121,6 +123,8 @@ section {
 
 #unity {
     /*    border: solid 3px green;*/
+    min-height: 80vh;
+
 }
 
 .unity_text:hover {
@@ -145,6 +149,7 @@ section {
 
 #product {
     /*    border: solid 3px orange*/
+    min-height: 50vh;
 }
 
 .single_product {
@@ -180,6 +185,7 @@ section {
 
 #request {
     /*    border: solid 3px crimson*/
+    min-height: 40vh;
 }
 
 input[type=text],
@@ -204,8 +210,9 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #8b31ba;
-    border-color: #8b31ba;
+    background-color: rgb(129, 92, 218);
+    border-color: rgb(129, 92, 218);
+    ;
 
 }
 
@@ -217,7 +224,7 @@ input[type=submit]:hover {
 }
 
 .logo_img {
-    max-width: 250px;
+    /*    max-width: 250px;*/
 }
 
 /* -------------------------------------------- FOOTER*/
